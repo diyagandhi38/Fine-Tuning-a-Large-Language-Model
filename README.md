@@ -6,12 +6,12 @@ This project fine-tunes the pre-trained distilbert-base-uncased transformer mode
 # Project Structure
 
 working-llm-finetuning-project/
-├── requirements.txt               # Dependencies with pinned versions
-├── scripts/
-│   ├── train.py                   # Training script (fine-tuning)
-│   ├── eval_model.py              # Evaluation script
-│   └── models/                    # Saved fine-tuned model directory
-└── README.md                      # Project documentation
+requirements.txt               # Dependencies with pinned versions
+scripts/
+ -train.py                   # Training script (fine-tuning)
+ -eval_model.py              # Evaluation script
+     -models/                    # Saved fine-tuned model directory
+ -README.md                      # Project documentation
 
 # Environment Setup
 1. Clone the Repository
