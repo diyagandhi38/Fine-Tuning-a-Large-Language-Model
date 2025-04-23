@@ -3,16 +3,6 @@
 Project Overview
 This project fine-tunes the pre-trained distilbert-base-uncased transformer model on the IMDb movie review dataset to classify sentiments into positive or negative categories. The objective is to improve the performance of the base model for domain-specific sentiment classification tasks through fine-tuning and evaluation.
 
-# Project Structure
-
-working-llm-finetuning-project/
-requirements.txt               # Dependencies with pinned versions
-scripts/
- -train.py                   # Training script (fine-tuning)
- -eval_model.py              # Evaluation script
-     -models/                    # Saved fine-tuned model directory
- -README.md                      # Project documentation
-
 # Environment Setup
 1. Clone the Repository
 Download and extract the project folder.
